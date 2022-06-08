@@ -1,3 +1,5 @@
+/* Reset & root font size */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +8,8 @@
 html {
     font-size: 16px;
 }
+
+/* Universal styles */
 
 body {
     background-color: #000;
@@ -20,11 +24,27 @@ h1 {
     margin: 2rem 0;
 }
 
+h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+    padding: 1rem;
+}
+
 p {
     margin: 1rem;
+    font-size: 1.3125rem;
+    color: grey;
 }
 
 a {
     color: aquamarine;
+    font-size: 1rem;
 }
 
+.video-wrapper {
+    margin: 50px;
+}
+
+video {
+    margin: 0 auto;
+}
